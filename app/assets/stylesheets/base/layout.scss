@@ -76,9 +76,19 @@ button:hover {
 	padding: 10px;
 }
 
+#gear:hover {
+	cursor: pointer;
+}
+
 #dropdown {
 	display: none;
 }
+
+
+#menu{
+	display: block;
+}
+
 
 hr {
 	border: 0;
