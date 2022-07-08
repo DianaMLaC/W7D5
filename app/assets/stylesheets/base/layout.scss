@@ -48,8 +48,36 @@ button:hover {
 	align-items: center;
 }
 
+.left-nav div {
+	display: flex;
+}
+
+.left-nav div > * {
+	margin: 10px;
+}
+
+.left-nav li:hover {
+	background-color: lightgray;
+	border-radius: 7px;
+}
+
+.left-nav button {
+	background-color: lightblue;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 7px;
+	color: white;
+}
+.left-nav button:hover {
+	background-color: lightgray;
+}
+
 .left-nav ul li {
 	padding: 10px;
+}
+
+#dropdown {
+	display: none;
 }
 
 hr {

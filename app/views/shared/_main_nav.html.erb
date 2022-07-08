@@ -3,19 +3,18 @@
 		<ul>
 			<li id="sections-sidebar-btn">
 				<i class="fa fa-bars"></i>
-				<span>sections</span>
+				<span>SECTIONS</span>
 			</li>
 			<li id="search-modal-btn">
 				<i class="fa fa-search"></i>
-				<span>search</span>
+				<span>SEARCH</span>
 			</li>
 		</ul>
 		<div>
 			<button> SUBSCRIBE NOW</button>
 			<button> LOG IN </button>
-			<i class="fas fa-cog"></i>
-			<%= render 'shared/gear_dropdown' %>
-		
+			<div id='gear'> <i class="fas fa-cog"></i> </div>
+			<div id="dropdown"> <%= render 'shared/gear_dropdown' %> </div>
 		</div>
 	</nav>
 </header>
