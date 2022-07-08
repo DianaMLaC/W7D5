@@ -7,6 +7,10 @@ html {
 
 body {
 	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: serif;
+	font-size: 12px;
 }
 
 button {
@@ -31,6 +35,22 @@ button:hover {
 /*
 	Header Rules
 */
+
+.left-nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.left-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left-nav ul li {
+	padding: 10px;
+}
 
 hr {
 	border: 0;
